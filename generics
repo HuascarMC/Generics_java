@@ -1,0 +1,44 @@
+Introduction to Generics
+
+Learning Objectives
+
+Know what generics are
+Understand when we would use generics
+Understand how to make a simple generic class
+Task
+
+As an introduction to generics either:
+
+watch the following video: Intro to Generics video
+
+read generics.md in the generics directory
+
+Answer the following questions:
+
+What is one benefit of using generics in Java classes?
+
+Generics allows the instances of a class to be more dynamic when created, the type
+of a property in this class can be specified when creating an instance.
+
+Name an example of a generic class that we have used in Java?
+
+
+
+What is the syntax for declaring a generic class?
+
+public class Generic<T> {
+
+}
+
+At what point does the generic type get specified?
+
+When creating an instance of the class for testing or in a method.
+
+
+Can generic types be of primitive type?
+
+Yes, boolean , byte , char , short , int , long , float and double.
+
+Can a generic class take more than one type parameters?
+
+Yes.
